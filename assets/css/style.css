@@ -56,7 +56,9 @@ screen and (max-width: 575px) {
 .weatherheader {
   display: flex;
   justify-content: center;
+  font-size: 40px;
   align-items: center
+  
 }
 
 .cityCard {
@@ -67,11 +69,23 @@ screen and (max-width: 575px) {
 
 }
 
-.card {
+.card{
   display: flex;
   border-radius: 20px;
-  border-color: black;
+  border-color: #87CEEB;
   border-width: 5px;
-  height: 200px;
+ width: 200px;
+
+}
+.cityList{
+display: flex;
+justify-content: start;
+align-items: row;
+padding-top: 30px;
+
+
+}
+.fiveDayForecast{
+  padding-top: 20px;
 
 }

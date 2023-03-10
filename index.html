@@ -20,69 +20,104 @@
 </header>
 
 <body>
-    <container>
+    <container class="container">
         <div>
 
             <p class="searchForCity">Search For City:</p>
         </div>
-        <div>
-            <form class="searchButton" action="action_page.php">
+
+
+        <div class="row">
+            <form class="searchButton col-12" action="action_page.php">
                 <input type="text" placeholder="Search.." name="search">
                 <button class="searchButtonText" type="submit">Search<i class="fa fa-search"></i></button>
             </form>
         </div>
-        <div class="weatherheader">
-            <p>5-Day ForeCast:</p>
+        <div class="list-group cityList">
 
-        </div>
+            <a href="#" class="list-group-item list-group-item-action">Montreal</a>
+            <a href="#" class="list-group-item list-group-item-action">Ottawa</a>
+            <a href="#" class="list-group-item list-group-item-action">Toronto</a>
+            <a href="#" class="list-group-item list-group-item-action">Quebec City</a>
+            <a href="#" class="list-group-item list-group-item-action">London</a>
 
-        <div class="cityCard">
 
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+            <div class="weatherheader row">
+                <p class="text-center fiveDayForecast">5-Day ForeCast:</p>
+
+            </div>
+            <div class="cityCard">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
                 </div>
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list-group cityList">
+
+                <a href="#" class="list-group-item list-group-item-action">Montreal</a>
+                <a href="#" class="list-group-item list-group-item-action">Ottawa</a>
+                <a href="#" class="list-group-item list-group-item-action">Toronto</a>
+                <a href="#" class="list-group-item list-group-item-action">Quebec City</a>
+                <a href="#" class="list-group-item list-group-item-action">London</a>
+            </div>
+
+            <div class="container">
+                <div class="row-cols-6">
+                    <div class="currentCity">
+                        <p id="temp">Temp:</p>
+                        <p id="wind">Wind</p>
+                        <p id="humidity">Humidity</p>
+                    </div>
+
+                </div>
+
+
             </div>
 
 
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                </div>
-            </div>
 
 
 
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                </div>
-            </div>
-
-
-
-        </div>
 
 
 
@@ -90,7 +125,7 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="./assets/javascript/script.js"></script>
 </body>
 
