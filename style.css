@@ -1,11 +1,77 @@
-@media screen and (max-width: 768px), screen and (max-width: 575px) {
-    body{
+@media screen and (max-width: 768px),
+screen and (max-width: 575px) {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
 
-
-    }
-    header{
-
-        
-    }
   }
-  
+
+
+
+
+
+
+
+}
+
+
+
+.navBarheader {
+  display: flex;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.navBarText {
+  font-size: 40px;
+
+
+}
+
+.searchForCity {
+  display: flex;
+  justify-content: start;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 30px;
+
+}
+
+.searchButton {
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
+
+
+}
+
+.searchButtonText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 80px;
+}
+
+.weatherheader {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.cityCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 50px;
+
+}
+
+.card {
+  display: flex;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 5px;
+  height: 200px;
+
+}
