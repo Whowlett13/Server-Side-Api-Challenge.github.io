@@ -11,7 +11,6 @@ function initPage() {
     var currentHumidityEl = document.getElementById("#humidity");
     var currentWindEl = document.getElementById("#windSpeed");
     var currentUVEl = document.getElementById("#UV-index");
-    var historyEl = document.getElementById("#history");
     var fivedayEl = document.getElementById("#fivedayHeader");
     var todayweatherEl = document.getElementById("#todayWeather");
     let searchHistory = JSON.parse(localStorage.getItem("#search")) || [];

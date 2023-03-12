@@ -33,7 +33,7 @@ screen and (max-width: 575px) {
   justify-content: start;
   font-size: 40px;
   font-weight: bold;
-  
+
 
 }
 
@@ -73,9 +73,15 @@ screen and (max-width: 575px) {
   border-radius: 20px;
   border-color: #87CEEB;
   border-width: 5px;
-  width: 50px;
+  margin: 7px;
+  width: 40px;
 
-} 
+}
+
+.cardContainer {
+  margin: 5px;
+
+}
 
 .cityList {
   display: flex;
@@ -84,7 +90,7 @@ screen and (max-width: 575px) {
   padding-top: 30px;
 
 
-} 
+}
 
 .fiveDayForecast {
   padding-top: 20px;
@@ -96,4 +102,4 @@ screen and (max-width: 575px) {
 .currentCity {
   display: flex;
   padding-top: 20px;
-} 
+}
