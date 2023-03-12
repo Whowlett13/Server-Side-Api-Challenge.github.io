@@ -33,7 +33,7 @@ screen and (max-width: 575px) {
   justify-content: start;
   font-size: 40px;
   font-weight: bold;
-  padding-left: 30px;
+  
 
 }
 
@@ -58,7 +58,6 @@ screen and (max-width: 575px) {
   justify-content: center;
   font-size: 40px;
   align-items: center
-  
 }
 
 .cityCard {
@@ -69,23 +68,32 @@ screen and (max-width: 575px) {
 
 }
 
-.card{
+.card {
   display: flex;
   border-radius: 20px;
   border-color: #87CEEB;
   border-width: 5px;
- width: 200px;
+  width: 50px;
 
-}
-.cityList{
-display: flex;
-justify-content: start;
-align-items: row;
-padding-top: 30px;
+} 
+
+.cityList {
+  display: flex;
+  justify-content: start;
+  align-items: row;
+  padding-top: 30px;
 
 
-}
-.fiveDayForecast{
+} 
+
+.fiveDayForecast {
   padding-top: 20px;
+  font-weight: 15px;
+  padding: 20px 0px 20px 0px;
 
 }
+
+.currentCity {
+  display: flex;
+  padding-top: 20px;
+} 
