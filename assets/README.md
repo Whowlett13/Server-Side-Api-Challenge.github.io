@@ -11,7 +11,7 @@
 -Creator
 
 ## Description Of Functionality:
-
+This project is a weather dashboard application. The user can look for different cities and their corresponding 5-day forecast weather.
 
 ## link To Deployed Application:
 
