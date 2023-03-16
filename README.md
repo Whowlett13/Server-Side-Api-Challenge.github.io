@@ -11,16 +11,16 @@
 -Creator
 
 ## Description Of Functionality:
-This project is a weather dashboard application. The user can look for different cities and their corresponding 5-day forecast weather.
+This project is a Weather Dashboard application. The user can look for different cities and their corresponding 5-day forecast weather.
 
 ## link To Deployed Application:
 
-Link:  
+Link:  https://whowlett13.github.io/Weather-Dashboard.github.io/
 
 
 ## ScreenShot of Deployed Application:
 
-Link: 
+Link: https://github.com/Whowlett13/Weather-Dashboard.github.io/issues/1#issue-1627761155
 
 ## Built With:
 -HTML
